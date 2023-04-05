@@ -44,7 +44,7 @@ resource "aws_key_pair" "production_key" {
 resource "aws_instance" "production_cicd_demo" {
   ami                    = var.base_ami_id
   instance_type          = "t2.micro"
-  vpc_security_group_ids = ["sg-0d2411db69a112a30"]
+  vpc_security_group_ids = ["sg-0d2b1e710a2281426"]
   key_name               = aws_key_pair.production_key.key_name
 
   tags = {
