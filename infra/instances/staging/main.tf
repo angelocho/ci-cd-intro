@@ -3,7 +3,7 @@ terraform {
     organization = "ci-cd-devops"
 
     workspaces {
-      name = "ci-cd-intro"
+      name = "ci-cd-intro-staging"
     }
   }
 
