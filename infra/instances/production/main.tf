@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "glich-stream"
+    organization = "ci-cd-devops"
 
     workspaces {
-      name = "ci-cd-production"
+      name = "ci-cd-intro"
     }
   }
 
